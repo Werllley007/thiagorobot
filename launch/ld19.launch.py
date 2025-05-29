@@ -33,7 +33,7 @@ def generate_launch_description():
         {'product_name': 'LDLiDAR_LD19'},
         {'topic_name': 'scan'},
         {'frame_id': 'base_laser'},
-        {'port_name': '/dev/serial/by-path/platform-70090000.xusb-usb-0:2.1:1.0-port0'},
+        {'port_name': '/dev/serial/by-path/platform-70090000.xusb-usb-0:2.2:1.0-port0'},
         {'port_baudrate': 230400},
         {'laser_scan_dir': True},
         {'enable_angle_crop_func': False},
